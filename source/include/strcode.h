@@ -38,7 +38,7 @@
 #define CHARA_00635875          0x00635875
 #define CHARA_006856c1          0x006856c1
 #define CHARA_006d2891          0x006d2891
-#define CHARA_00743c9f          0x00743c9f
+#define CHARA_00743c9f          0x00743c9f  // GV_StrCode("delay") NewDelay
 #define CHARA_007f39b4          0x007f39b4
 #define CHARA_0080b977          0x0080b977
 #define CHARA_0082c4fc          0x0082c4fc
@@ -56,7 +56,7 @@
 #define CHARA_00a53aa7          0x00a53aa7
 #define CHARA_00a7f442          0x00a7f442
 #define CHARA_00ab5351          0x00ab5351
-#define CHARA_00b8dcee          0x00b8dcee
+#define CHARA_00b8dcee          0x00b8dcee  // GV_StrCode("ステージ")
 #define CHARA_00bac5db          0x00bac5db
 #define CHARA_00c8e3fd          0x00c8e3fd
 #define CHARA_00c8fc31          0x00c8fc31
