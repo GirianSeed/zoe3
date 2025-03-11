@@ -63,7 +63,7 @@
 #define CHARA_00c91ea7          0x00c91ea7
 #define CHARA_00cacd28          0x00cacd28
 #define CHARA_00daf423          0x00daf423
-#define CHARA_00dc83c5          0x00dc83c5
+#define CHARA_LOAD_SOUND_PACK   0x00dc83c5  // GV_StrCode("ロードサウンドパック")
 #define CHARA_00dec222          0x00dec222
 #define CHARA_00ea1f40          0x00ea1f40
 #define CHARA_00f07377          0x00f07377
