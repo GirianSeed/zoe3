@@ -1,7 +1,7 @@
 #ifndef __ZOE3_LIBGCL_H__
 #define __ZOE3_LIBGCL_H__
 
-#include <sys/types.h>
+#include "common.h"
 
 #ifdef __cplusplus
 extern "C" {
