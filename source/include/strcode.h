@@ -53,7 +53,7 @@
 #define CHARA_009936ee          0x009936ee
 #define CHARA_00993746          0x00993746
 #define CHARA_009f0c4d          0x009f0c4d
-#define CHARA_00a53aa7          0x00a53aa7
+#define CHARA_FOG               0x00a53aa7  // GV_StrCode("フォグ")
 #define CHARA_00a7f442          0x00a7f442
 #define CHARA_00ab5351          0x00ab5351
 #define CHARA_STAGE             0x00b8dcee  // GV_StrCode("ステージ")
