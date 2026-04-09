@@ -140,13 +140,11 @@
 #ifdef DEBUG
 #define ASSERT(cond)                                            \
     if (!(cond)) {                                              \
-        /* todo: decompile */                                   \
         HANGUP();                                               \
     }
 
 #define XASSERT(cond, mesg...)                                  \
     if (!(cond)) {                                              \
-        /* todo: decompile */                                   \
         printf( mesg );                                         \
         HANGUP();                                               \
     }
