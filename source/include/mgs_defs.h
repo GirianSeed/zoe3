@@ -140,6 +140,7 @@
 #ifdef DEBUG
 #define ASSERT(cond)                                            \
     if (!(cond)) {                                              \
+        /* todo: decompile */                                   \
         HANGUP();                                               \
     }
 
