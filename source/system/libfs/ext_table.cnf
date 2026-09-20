@@ -1,0 +1,57 @@
+/* -*- mode: c; tab-width: 4; indent-tabs-mode: nil; -*- */
+#ifndef __ZOE3_EXT_TABLE_CNF__
+#define __ZOE3_EXT_TABLE_CNF__
+
+#include <stddef.h> // for NULL
+
+typedef struct {
+    char *name; /* +0x00 */
+    int id;     /* +0x04 */
+} EXT_TABLE;
+
+EXT_TABLE ext_table[] = {
+    { "gcx", 0x02 },
+    { "bhv", 0x26 },
+    { "tri", 0x03 },
+    { "mdz", 0x12 },
+    { "rcm", 0x22 },
+    { "mtar", 0x08 },
+    { "gnv", 0x23 },
+    { "mtcm", 0x0b },
+    { "cv2", 0x07 },
+    { "mds", 0x05 },
+    { "hzt", 0x15 },
+    { "hz2", 0x16 },
+    { "lt2", 0x06 },
+    { "cvg", 0x20 },
+    { "rpd", 0x25 },
+    { "geom", 0x0c },
+    { "cvd", 0x1d },
+    { "mtra", 0x1f },
+    { "mdh", 0x04 },
+    { "nhz", 0x19 },
+    { "mdc", 0x0d },
+    { "mdb", 0x0e },
+    { "eft", 0x18 },
+    { "sar", 0x1e },
+    { "mtsq", 0x09 },
+    { "row", 0x14 },
+    { "mtz", 0x1c },
+    { "psq", 0xff },
+    { "slot", 0x60 },
+    { "bin", 0x01 },
+    { "mts", 0x0f },
+    { "fnt", 0x17 },
+    { "sta", 0x24 },
+    { "flw", 0x11 },
+    { "efg", 0x21 },
+    { "mtfa", 0x0a },
+    { "tex", 0x13 },
+    { "mtn", 0x1b },
+    { "mtl", 0x10 },
+    { "trz", 0x1a },
+    { NULL, 0x00 }
+};
+
+#endif // {{{ END OF FILE }}}
+/* vim:set ts=4 sw=4 sts=4 et ft=c: */
